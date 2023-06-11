@@ -1,0 +1,61 @@
+.accordion-body {
+    background-color: $color2 ;
+}
+main.main-contenido.custom-body{
+    width: 100%;
+}
+@media(min-width: $desktop){
+    div.accordion-body{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+        p{
+            margin-right: 10px;
+        }
+        img{
+            width: 500px;
+        }
+    }
+
+}
+
+.custom-body .accordion-item .accordion-button {
+    background-color: $color7;
+    border-radius: 7px;
+    border: solid 1px $color3; 
+}
+div#accordionExample.accordion{
+    width: 98%;
+}
+
+.accordion-body img{
+    width: 95%;
+    height: auto; align-items: center;
+
+}
+.pie-pag h3{
+    
+    text-align: center;
+    margin-top: $espacio-chico;
+    margin-bottom: $espacio-chico;
+    
+}
+.custom-accordion-item.collapsed{
+    width:80%;
+}
+button.accordion-button{
+    font-size: $fuente-chica;
+    font-weight: bold;
+    width: 100%;
+    
+}
+@media(min-width: $tablet){
+    button.accordion-button{
+        font-size: $fuente-media;
+    }
+    .accordion-body{
+        font-size: $fuente-media;
+    }
+}
